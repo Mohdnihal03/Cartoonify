@@ -1,0 +1,56 @@
+# Virtual Environment
+.env/
+.venv/
+venv/
+ENV/
+env/
+
+# Python Bytecode Files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Distribution / Packaging
+build/
+dist/
+*.egg-info/
+*.egg
+*.whl
+
+# IDE/Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+*.iml
+
+# OS-specific files
+.DS_Store  # macOS
+Thumbs.db  # Windows
+
+# Pytest
+.cache/
+
+# Pyre type checker
+.pyre/
+
+# mypy
+.mypy_cache/
+
+# PyInstaller
+*.spec
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Test and Coverage Reports
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+
+
+.cartoonify.egg-info
