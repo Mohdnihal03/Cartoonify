@@ -37,7 +37,7 @@ jobs:
       # Run tests
       - name: Run tests
         run: |
-          pytest tests/  # Replace this with your testing folder or testing command
+          pytest cartoonify/tests/  # Replace this with your testing folder or testing command
 
       # Build the distribution (this creates the .tar.gz and .whl files)
       - name: Build Distribution
